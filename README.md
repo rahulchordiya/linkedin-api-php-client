@@ -173,7 +173,7 @@ print_r($profile);
 ```php
 $profile = $client->get(
     'companies',
-    ['is-company-admin' => true]
+    ['is-company-admin' => 'true']
 );
 print_r($profile);
 ```
